@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of page-->
+    <title>Chris Potgieter</title>
+    <!--link to smooth scroll effect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!--google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!--link to mystylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!--hamburger menu effect -->
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+
+        <!--popup navlist when hamburger menu click -->
+        <nav class="top-nav">
+            <!--navigation list for different parts of website -->
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Chris Potgieter</h1>
+            <h6>Web Developer</h6>
+        </div>
+    </header>
+
+    <!--Section with facts and interest about me -->
+    <section class="about" id="about">
+        <div class="container">
+            <!--image about me with fade effect -->
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="images/profile.jpg" height="550px" width="250px" alt="">
+            </div>
+            <!--data about me with fade effect -->
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p> I'm a web-developer based in Gauteng South-Africa. Interested in everything to do with
+                    technology, I love creating, building and designing new things and hopefully I can create
+                    something that you will like.
+                </p>
+
+
+                <div class="about-facts">
+                    <h6>Radom Facts</h6>
+                    <ul>
+                        <li>I drink a lot of coffee.</li>
+                        <li>Would love to live in Canada.</li>
+                        <li>Enjoy cooking and eating.</li>
+                        <li>I hit the gym regulary.</li>
+                        <li>Would love to open my own tech compony</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--Education data with fade effect -->
+    <div class="education">
+        <h1>Education</h1>
+        <p>Matric with university exemption</p>
+    </div>
+    <!--type of services provide section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1> Web Design</h1>
+                    <p>Building, creating, and maintaining websites
+
+                    </p>
+                </div>
+                <div class="my-skills">
+                    <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h1>Client-side/Server-side Scripting</h1>
+                        <p>Front-End and Back-End
+                        </p>
+                    </div>
+                    <div class="my-skills">
+                        <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                            <div class="icon-container">
+                                <i class="fas fa-wrench"></i>
+                            </div>
+                            <!--images of languages i can code in -->
+                            <h1>Current Toolset</h1>
+                            <div class="languageIcons">
+                                <img src="./images/html.png">
+                                <img src="./images/css.png">
+                                <img src="./images/js.png">
+                                <img src="./images/jquery.png">
+                                <img src="./images/delphi.png">
+                                <img src="./images/mySQL.png">
+                                <img src="./images/postgreSQL.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <!--portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <!--previous program coded -->
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/cheeseAndWine.png">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Web Development</h6>
+                    <h6>Web Design</h6>
+                    <h1>Add to cart website</h1>
+                    <p>Wine and Cheese online store
+                    </p>
+                    <!--github link to program -->
+                    <a href="https://github.com/ChrisPotgieter/WineAndCheeseAddToCart" target="_blank" class="cta">Veiw
+                        Details</a>
+                </div>
+            </div>
+
+    </section>
+    
+    <!--my work experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and Current jobs</h6>
+            </div>
+            <!--work experience styled in timeline effect -->
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <!--workexperience data -->
+                <ul>
+                    <li class="date" data-date="2017- 2018">
+                        <h1>Controller</h1>
+                        <p>Worked at a truck and shipping company GroundCover as an controller.
+                            Monitoring shipments and managing truck drivers
+                        </p>
+                    </li>
+                    <li class="date" data-date="2019- 2020">
+                        <h1>Coding</h1>
+                        <p>Worked in coding for company called MQattach. Used delphi ,postgreSQLand mySQL
+                            to develop school databases.
+                        </p>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!--Contact details -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Lets work together</h6>
+                <!--Link to my email and github page -->
+                <a href="mailto:chrispotjnr@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a><a
+                    href="mailto:chrispotjnr@gmail.com" target="_blank">chrispotjnr@gmail.com</a><br>
+                <a href="https://github.com/HotdogLLF"><i class="fab fa-github"></a></i><a
+                    href="https://github.com/HotdogLLF" target="_blank">https://github.com/HotdogLLF</a>
+
+
+    </section>
+
+<!--links to my social media page -->
+    <div class="social-media">
+        <ul class="nav-list">
+            <li>
+                <a href='#' class="icon-link"></a>
+                <i class="fab fa-facebook-square"></i>
+            </li>
+            <li>
+                <a href='#' class="icon-link"></a>
+                <i class="fab fa-twitter-square"></i>
+            </li>
+
+        </ul>
+    </div>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Chris Potgieter</p>
+    </footer>
+
+    <!--jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--fade effect script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--script to javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
